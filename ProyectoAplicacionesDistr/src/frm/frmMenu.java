@@ -232,6 +232,7 @@ public class frmMenu extends JFrame{
 			}
 		});
 	}
+	//metodo para procesar Datos
 	
 	private void procesoDatos(String cheque){
 		try {
