@@ -107,6 +107,8 @@ public class frmServidor extends JFrame implements Runnable{
 		}
 		while (banderaM) {
 			
+			//Se acepta el SocketServer
+			
 			cli = servidor.accept();
 
 			//------------------------Datos frmMenu otroMonto
@@ -138,7 +140,7 @@ public class frmServidor extends JFrame implements Runnable{
 			}
 		}	
 		} catch (Exception e) {
-			   System.out.println("Error: "+e.getMessage());
+			   System.out.println("Error en la segunda bandera: "+e.getMessage());
 			   
 		}
 	}
