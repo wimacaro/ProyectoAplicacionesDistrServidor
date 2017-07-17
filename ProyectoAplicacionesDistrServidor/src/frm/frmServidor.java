@@ -109,6 +109,7 @@ public class frmServidor extends JFrame implements Runnable{
 			
 			//Se acepta el SocketServer
 			//----
+			//Nuevo Cambioo
 			
 			cli = servidor.accept();
 
