@@ -108,6 +108,7 @@ public class frmServidor extends JFrame implements Runnable{
 		while (banderaM) {
 			
 			//Se acepta el SocketServer
+			//----
 			
 			cli = servidor.accept();
 
